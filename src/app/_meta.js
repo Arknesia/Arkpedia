@@ -1,11 +1,11 @@
 export default {
   index: "Main Page",
-  Guides: "Guides",
-  Classes: { display: "hidden" },
-  ItemTiers: { display: "hidden" },
-  Copyrights: { display: "hidden" },
-  Licensing: { display: "hidden" },
   Ads: { display: "hidden" },
+  Classes: { display: "hidden" },
+  Copyrights: { display: "hidden" },
+  Guides: "Guides",
+  ItemTiers: { display: "hidden" },
+  Licensing: { display: "hidden" },
   "*": {
     theme: {
       footer: false,
