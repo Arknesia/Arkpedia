@@ -4,8 +4,10 @@ import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
  
 export const metadata = {
-  description: 'Official Arknesia Wiki',
-  title: { template: '%s | Official Arknesia Wiki' },
+  title: {
+    default: 'Official Arknesia Wiki',
+    template: '%s | Official Arknesia Wiki'
+  },
   metadataBase: new URL('https://arknesia.wiki'),
 }
 
