@@ -1,5 +1,5 @@
 export default {
-  index: "Main Page",
+  index: "Welcome",
   Ads: { display: "hidden" },
   Channels: { display: "hidden" },
   Classes: { display: "hidden" },
