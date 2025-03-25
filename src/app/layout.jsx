@@ -22,12 +22,12 @@ export default async function RootLayout({ children }) {
           navbar={
             <Navbar
               logo={<span style={{ fontWeight: 800 }}>Arknesia Wiki</span>}
-              projectLink="https://github.com/khisabkurniawn/arknesia-wiki"
+              projectLink="https://github.com/Arknesia/Arkpedia"
               chatLink="https://discord.gg/nqbNxtw5QZ"
             />
           }
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/khisabkurniawn/arknesia-wiki/tree/main"
+          docsRepositoryBase="https://github.com/Arknesia/Arkpedia/tree/main"
           nextThemes={{ disableTransitionOnChange: false, defaultTheme: 'dark' }}
           navigation={{ prev: false, next: false }}
           sidebar={{ toggleButton: false }}
